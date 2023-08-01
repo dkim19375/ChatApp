@@ -10,7 +10,9 @@ plugins {
 group = "me.dkim19375"
 version = "1.0.0"
 
-setupJava()
+setupJava(
+    javaVersion = JavaVersion.VERSION_11
+)
 
 repositories {
     mavenCentral()
@@ -24,7 +26,9 @@ subprojects {
     group = rootProject.group
     version = rootProject.version
 
-    setupJava()
+    setupJava(
+        javaVersion = JavaVersion.VERSION_11
+    )
 
     repositories {
         mavenCentral()
