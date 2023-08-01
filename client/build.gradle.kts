@@ -31,5 +31,9 @@ compose.desktop {
             packageName = "ChatApp"
             packageVersion = "1.0.0"
         }
+
+        buildTypes.release.proguard.configurationFiles.from(
+            File(projectDir, "proguard-rules.pro")
+        )
     }
 }
