@@ -14,6 +14,14 @@ dependencies {
     // (in a separate module for demo project and in testMain).
     // With compose.desktop.common you will also lose @Preview functionality
     implementation(compose.desktop.currentOs)
+
+    implementation("io.ktor:ktor-client-cio:2.3.2")
+    implementation("io.ktor:ktor-client-core:2.3.2")
+    implementation("io.ktor:ktor-client-websockets:2.3.2")
+}
+
+license {
+    exclude("me/dkim19375/chatapp/client/navigation/Nav**")
 }
 
 tasks {
@@ -24,7 +32,7 @@ tasks {
 
 compose.desktop {
     application {
-        mainClass = "me.dkim19375.chatapp.client.ChatAppClientKt"
+        mainClass = "me.dkim19375.chatapp.client.ChatAppClientMainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)

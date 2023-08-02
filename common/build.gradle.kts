@@ -1,4 +1,4 @@
-dependencies{
+dependencies {
     api("commons-io:commons-io:2.13.0")
     api("com.google.guava:guava:32.1.1-jre")
     api("com.google.code.gson:gson:2.10.1")
