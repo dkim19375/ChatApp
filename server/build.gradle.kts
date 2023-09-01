@@ -14,7 +14,7 @@ setupJava(
 
 
 dependencies {
-    implementation("io.ktor:ktor-server-core:2.3.3")
+    implementation("io.ktor:ktor-server-core:2.3.4")
     implementation("io.ktor:ktor-server-netty:2.3.3")
     implementation("io.ktor:ktor-server-websockets:2.3.3")
 }
