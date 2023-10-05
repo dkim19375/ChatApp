@@ -17,7 +17,7 @@ dependencies {
 
     implementation("io.ktor:ktor-client-cio:2.3.5")
     implementation("io.ktor:ktor-client-core:2.3.5")
-    implementation("io.ktor:ktor-client-websockets:2.3.4")
+    implementation("io.ktor:ktor-client-websockets:2.3.5")
 }
 
 license {
