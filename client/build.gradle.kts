@@ -1,7 +1,7 @@
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 
 plugins {
-    id("org.jetbrains.compose") version "1.5.2"
+    id("org.jetbrains.compose") version "1.5.3"
 }
 
 repositories {
