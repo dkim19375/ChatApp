@@ -16,7 +16,7 @@ dependencies {
     implementation(compose.desktop.currentOs)
 
     implementation("io.ktor:ktor-client-cio:2.3.6")
-    implementation("io.ktor:ktor-client-core:2.3.5")
+    implementation("io.ktor:ktor-client-core:2.3.6")
     implementation("io.ktor:ktor-client-websockets:2.3.5")
 }
 
