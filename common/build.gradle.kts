@@ -1,5 +1,5 @@
 dependencies {
-    api("commons-io:commons-io:2.15.0")
+    api("commons-io:commons-io:2.15.1")
     api("com.google.guava:guava:32.1.3-jre")
     api("com.google.code.gson:gson:2.10.1")
     api("io.github.dkim19375:dkimcore:1.4.2")
