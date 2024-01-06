@@ -4,7 +4,7 @@ plugins {
     kotlin("jvm") version "1.9.21"
 
     id("org.cadixdev.licenser") version "0.6.1"
-    id("io.github.dkim19375.dkim-gradle") version "1.3.7"
+    id("io.github.dkim19375.dkim-gradle") version "1.3.8"
 }
 
 group = "me.dkim19375"
